@@ -1,0 +1,15 @@
+.panel {
+    display: none;
+    width: 80%;
+    margin: auto;
+}
+
+#list {
+    width: 80%;
+    margin: auto;
+}
+
+button {
+    margin-top: 20px;
+    width: 30%;
+}

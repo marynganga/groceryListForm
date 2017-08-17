@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Grocery Shopping List Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron info">
+            <h1>Grocery Shopping List Entry Form</h1>
+        </div>
+    </div>
+    <div id="list">
+        <form>
+            <div class="form-group">
+                <h3>What do you need from the store?</h3>
+                <label for="item1">Item 1</label>
+                <input type="text" id="item1" class="form-control">
+                <label for="item2">Item 2</label>
+                <input type="text" id="item2" class="form-control">
+                <label for="item3">Item 3</label>
+                <input type="text" id="item3" class="form-control">
+                <label for="item4">Item 4</label>
+                <input type="text" id="item4" class="form-control">
+                <label for="item5">Item 5</label>
+                <input type="text" id="item5" class="form-control">
+                <label for="item6">Item 6</label>
+                <input type="text" id="item6" class="form-control">
+                <label for="item7">Item 7</label>
+                <input type="text" id="item7" class="form-control">
+                <button type="submit" name="button" id="submit" class=" btn-danger">Submit your list</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="panel panel-warning">
+        <div class="panel-heading">
+            <p>Your Shopping List:</p>
+        </div>
+        <div class="panel-body">
+            <ol id="inputtedList"></ol>
+        </div>
+        <div class="panel-footer">
+            <p>Enjoy your shopping</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
